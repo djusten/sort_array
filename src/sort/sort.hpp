@@ -1,12 +1,11 @@
 // Copyright (C) 2020  Diogo Justen. All rights reserved.
 #pragma once
 
-class Sort
+#include <vector>
+#include <iostream>
+
+namespace Sort
 {
-public:
-  Sort(void);
-  ~Sort(void);
-
-private:
-};
-
+  std::vector<int> getOrdered(std::vector<int> &vector);
+  void printVector(std::vector<int> &vector);
+}
