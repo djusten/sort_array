@@ -12,8 +12,3 @@ target_include_directories(sort PUBLIC
 
 target_link_libraries(sort
 )
-
-#target_include_directories (sort
-#  PUBLIC
-#    ${CMAKE_CURRENT_BINARY_DIR}
-#)
